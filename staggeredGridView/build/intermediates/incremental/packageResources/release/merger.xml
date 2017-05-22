@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/kumar.samdwar/workplace/NewsFeed/NewsApp/staggeredGridView/src/main/res"><file path="/Users/kumar.samdwar/workplace/NewsFeed/NewsApp/staggeredGridView/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="StaggeredGridView">
+        <attr format="boolean" name="drawSelectorOnTop"/>
+        <attr format="integer" name="numColumns"/>
+    </declare-styleable></file></source><source path="/Users/kumar.samdwar/workplace/NewsFeed/NewsApp/staggeredGridView/build/generated/res/rs/release"/><source path="/Users/kumar.samdwar/workplace/NewsFeed/NewsApp/staggeredGridView/build/generated/res/generated/release"/></dataSet><dataSet config="release"><source path="/Users/kumar.samdwar/workplace/NewsFeed/NewsApp/staggeredGridView/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="StaggeredGridView"><attr format="boolean" name="drawSelectorOnTop"/><attr format="integer" name="numColumns"/></declare-styleable></configuration></mergedItems></merger>

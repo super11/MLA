@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    android:background="#ffe6e6e6"
+    android:paddingBottom="1dp"
+    android:orientation="vertical" >
+
+    <!-- Thumbnail Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/video_thumbnail"
+        android:layout_height="69dp"
+        android:layout_width="69dp"
+        android:background="@drawable/round_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/video_title"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:paddingLeft="16dp"
+        android:background="@drawable/round_layout"
+        android:layout_alignTop="@+id/video_thumbnail"
+        android:layout_toRightOf="@+id/video_thumbnail"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/video_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video_title"
+        android:background="@drawable/round_layout"
+        android:paddingLeft="16dp"
+        android:layout_toRightOf="@+id/video_thumbnail"
+        android:layout_marginTop="5dip"
+        android:textColor="#343434"
+        android:maxLength="30"
+        android:visibility="gone"
+         />
+
+    <TextView
+        android:id="@+id/video_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/video_description"
+        android:layout_alignBottom="@+id/video_description"
+        android:layout_alignParentRight="true"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+</RelativeLayout>

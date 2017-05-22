@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ff004884"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+   <RelativeLayout
+        android:id="@+id/web_view"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <WebView
+
+            android:id="@+id/main_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></WebView>
+
+       <ProgressBar
+           android:id="@+id/articleProgressBar"
+           style="?android:attr/progressBarStyleHorizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:indeterminate="true"
+           android:max="100"
+           android:minHeight="25dp"
+           android:minWidth="200dp"
+           android:progress="1"
+           android:visibility="invisible"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="-10dp"
+           android:layout_centerHorizontal="true" />
+
+   </RelativeLayout>
+
+    <!--<ImageView
+        android:id="@+id/comment_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_comment"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />-->
+    <com.mla.newsapp.views.CommentButton
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.mla.newsapp.views.CommentButton>
+
+</RelativeLayout>

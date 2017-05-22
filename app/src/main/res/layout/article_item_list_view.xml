@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/round_layout"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+/>
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginLeft="4dp"
+        android:text="Title is coming..."
+        android:textColor="#ff133147"
+        android:textSize="16dp"
+        android:paddingLeft="16dp"
+        android:layout_gravity="right"
+        android:background="@drawable/round_layout"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+     />
+
+ <!--  <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10sp"
+        android:id="@+id/descView"
+        android:textColor="#00252A"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/titleView"
+        android:layout_marginTop="2dp"
+/>-->
+</RelativeLayout>

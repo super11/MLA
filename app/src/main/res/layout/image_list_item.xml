@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/round_layout" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image_1"
+        android:layout_width="209dp"
+        android:background="@drawable/round_layout"
+        android:layout_height="182dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal|top" />
+
+    <!--<com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image_2"
+        android:layout_width="69dp"
+        android:background="@drawable/round_layout"
+        android:layout_height="69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+    <!--<TextView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginLeft="4dp"
+        android:textColor="#ff133147"
+        android:textSize="16dp"
+        android:paddingLeft="16dp"
+        android:layout_gravity="right"
+        android:background="@drawable/round_layout"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/thumbnail_img"
+        android:layout_toEndOf="@+id/thumbnail_img" />
+-->
+</FrameLayout>

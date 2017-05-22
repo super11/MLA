@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>Top News</item>
+        <item>Feeds</item>
+        <item>Polls</item>
+        <item>Complaint</item>
+        <item>Profile</item>
+    </string-array>
+</resources>
